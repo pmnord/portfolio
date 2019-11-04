@@ -1,5 +1,7 @@
 # portfolio
 
+Design something that will appeal to non-technical recruiters and technical hiring managers alike
+
 ## Requirements
 1. Short Bio
 2. Contact Info
