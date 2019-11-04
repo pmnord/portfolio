@@ -22,7 +22,8 @@ Here are a few examples:
 
 - Quiz App
 
-When I'm not developing web apps, I'm usually reading, doing the crossword, or playing the latest indie game that _piques my creative interest_.
+When I'm not developing web apps, I'm usually reading, doing the crossword, or playing the latest indie game that _piques my creative interest_. 
+I also keep my programming skills sharp by solving problems on LeetCode, which you can find **here**, and by contributing to open source projects **such as this one**. 
 
 - I enjoy:
     - reading
