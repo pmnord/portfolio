@@ -15,10 +15,10 @@ Design something that will appeal to non-technical recruiters and technical hiri
 
 ### Bio
 
-I'm Pete
-A full stack web developer in Raleigh, NC
-Delivering fun and useful user experiences
-Here are a few examples:
+- I'm Pete
+- A full stack web developer in Raleigh, NC
+- Delivering fun and useful user experiences
+- Here are a few examples:
 
 - Quiz App
 
