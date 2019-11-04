@@ -19,8 +19,7 @@ Design something that will appeal to non-technical recruiters and technical hiri
 - A full stack web developer in Raleigh, NC
 - Delivering fun and useful user experiences
 - Here are a few examples:
-
-- Quiz App
+    - Quiz App
 
 When I'm not developing web apps, I'm usually reading, doing the crossword, or playing the latest indie game that _gets me thinking_. 
 
