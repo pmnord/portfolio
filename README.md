@@ -23,6 +23,7 @@ Design something that will appeal to non-technical recruiters and technical hiri
 - Quiz App
 
 When I'm not developing web apps, I'm usually reading, doing the crossword, or playing the latest indie game that _gets me thinking_. 
+
 I also keep my programming skills sharp by solving problems on LeetCode, which you can find **here**, and by contributing to open source projects **such as this one**. 
     
  ### Brainstorm
