@@ -5,10 +5,10 @@ Design something that will appeal to non-technical recruiters and technical hiri
 ## Requirements
 1. Short Bio
 2. Contact Info
-3. polished, professional design
-4. responsive, mobile-first using progressive enhancement
+3. Polished, professional design
+4. Responsive, mobile-first using progressive enhancement
 5. titles, short descriptions, links, screenshots of projects
-6. no css frameworks/templaces i.e. no bootstrap
+6. no css frameworks/templates i.e. no bootstrap
 7. no console errors
     - maybe I'll include a console message
 8. fast load time
@@ -26,6 +26,6 @@ When I'm not developing web apps, I'm usually reading, doing the crossword, or p
 I also keep my programming skills sharp by solving problems on LeetCode, which you can find **here**, and by contributing to open source projects **such as this one**. 
     
  ### Brainstorm
- - Oh dear, it looks like you broke the page
-    - Please put it back together again
- - 
+
+- slogans
+    - images / hero images to match
