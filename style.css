@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+}
+body * {
+    font-size: 2rem;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+}
+nav {
+    display: inline-block
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+
+section {
+    padding: 12%;
+}
+section:nth-child(even) {
+}
+.projects {
+    background-color: rgba(199,199,199);
+}
+.contact {
+    background-color: rgba(155,155,155);
+}
