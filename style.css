@@ -5,6 +5,9 @@ body {
     max-width: 800px;
     font-family: 'Open Sans', sans-serif;
 }
+a {
+    color: black;
+}
 
 header {
     position: fixed;
@@ -28,7 +31,7 @@ nav {
     font-family: 'Oswald', sans-serif;
     padding-right: 10px;
 }
-ul {
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -36,7 +39,7 @@ ul {
     justify-content: space-evenly;
     width: 100%;
 }
-li {
+nav li {
     display: inline-block;
 }
 
@@ -46,6 +49,13 @@ main {
 
 section {
     box-sizing: border-box;
+}
+h2 {
+    margin: 0;
+    padding: 10px;
+}
+.hero {
+    height: 100vh;
     height: 100vh;
     padding-top: 20vh;
 }
@@ -77,35 +87,62 @@ section {
     margin: 0 auto;
 }
 
-
-.hero:nth-child(2) {
-
-}
-
-
-
 .projects {
+    min-height: 100vh;
     background-color: rgba(199,199,199);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.projects .project {
+    height: 200px;
+    width: 100%;
+}
+.project img {
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.project p {
+    margin: 0;
+    text-align: left;
+}
+.project .tech-icons {
+    clear: left;
+    height: auto;
+    width: 50%;
 }
 .contact {
     background-color: rgba(155,155,155);
+}
+.contact ul {
+    list-style: none;
+}
+.contact li {
+    padding-bottom: 5px;
+}
+.social {
+    padding: 20px;
 }
 footer {
     height: 8vh;
     font-size: 1rem;
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 520px) {
     body {
         max-width: 800px;
         box-sizing: border-box;
     }
     header {
-        width: 300px;
+        width: 320px;
         border-bottom-right-radius: 80px;
     }
     header img {
-        height: 45px;
+        height: 32px;
         margin: auto 0;
     }
     header ul {
@@ -117,5 +154,30 @@ footer {
     }
     .hero p:nth-of-type(1) {
         padding-bottom: 30vh;
+    }
+    .projects {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .projects .project {
+        border: solid 2px black;
+        height: 10%;
+        width: 90%;
+        padding: 5px;
+    }
+    .project p {
+        text-align: left;
+        padding-left: 5px;
+    }
+    .projects img {
+        width: 50%;
+        float: left;
+    }
+    .contact form {
+        border: solid 2px black;
+        width: 300px;
+        display: block;
+        margin: 25% auto;
     }
 }
