@@ -2,37 +2,120 @@ body {
     margin: 0 auto;
     font-size: 0;
     text-align: center;
-}
-body * {
-    font-size: 2rem;
+    max-width: 800px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
     position: fixed;
+    height: 8vh;
     width: 100%;
     text-align: left;
     background-color: white;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header img {
+    height: 5vh;
+    margin: auto 0;
 }
 nav {
-    display: inline-block
+    font-size: 1.7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    padding-right: 10px;
 }
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 li {
     display: inline-block;
 }
 
+main {
+    font-size: 1rem;
+}
+
 section {
-    padding: 12%;
+    box-sizing: border-box;
+    height: 100vh;
+    padding-top: 20vh;
 }
-section:nth-child(even) {
+.hero img {
+    width: 25vh;
+    padding-top: 5px;
 }
+.hero img:nth-of-type(1) {
+    float: right;
+}
+.hero img:nth-of-type(2) {
+    float: left;
+}
+.hero p {
+    margin: 0;
+}
+.hero p:nth-of-type(1) {
+    text-align: left;
+    padding-bottom: 10vh;
+    padding-left: 1vh;
+}
+.hero p:nth-of-type(2) {
+    text-align: right;
+    padding-right: 1vh;
+}
+.hero i {
+    padding-top: 15vh;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.hero:nth-child(2) {
+
+}
+
+
+
 .projects {
     background-color: rgba(199,199,199);
 }
 .contact {
     background-color: rgba(155,155,155);
+}
+footer {
+    height: 8vh;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 680px) {
+    body {
+        max-width: 800px;
+        box-sizing: border-box;
+    }
+    header {
+        width: 300px;
+        border-bottom-right-radius: 80px;
+    }
+    header img {
+        height: 45px;
+        margin: auto 0;
+    }
+    header ul {
+        font-size: 1.5rem;
+    }
+    
+    .hero i {
+        display: none;
+    }
+    .hero p:nth-of-type(1) {
+        padding-bottom: 30vh;
+    }
 }
