@@ -1,13 +1,17 @@
+/* -------------------------------------------------------------------------- */
+/*                               Smooth Scroller                              */
+/* -------------------------------------------------------------------------- */
+
 window.smoothScroll = function(target) {
     var scrollContainer = target;
-    do { //find scroll container
+    do { // Find scroll container
         scrollContainer = scrollContainer.parentNode;
         if (!scrollContainer) return;
         scrollContainer.scrollTop += 1;
     } while (scrollContainer.scrollTop == 0);
     
     var targetY = 0;
-    do { //find the top of target relatively to the container
+    do { // Find the top of target relative to the container
         if (target == scrollContainer) break;
         targetY += target.offsetTop;
     } while (target = target.offsetParent);
@@ -15,9 +19,9 @@ window.smoothScroll = function(target) {
     scroll = function(c, a, b, i) {
         i++; if (i > 30) return;
         c.scrollTop = a + (b - a) / 30 * i;
-        setTimeout(function(){ scroll(c, a, b, i); }, 8);
+        setTimeout(function(){ scroll(c, a, b, i); }, 8); // Adjust scroll speed
     }
-    // start scrolling
+    // Start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
 
@@ -25,8 +29,11 @@ const chevron = document.querySelector('.my-chevron');
 const projects = document.querySelector('.projects');
 chevron.addEventListener('click', () => {window.smoothScroll(projects)});
 
+/* -------------------------------------------------------------------------- */
+/*                                Sticky Navbar                               */
+/* -------------------------------------------------------------------------- */
 
-// When the user scrolls the page, execute myFunction
+// When the user scrolls the page, execute makeHeaderSticky
 window.onscroll = function() {makeHeaderSticky()};
 
 // Get the header
@@ -43,3 +50,13 @@ function makeHeaderSticky() {
     header.classList.remove("sticky");
   }
 }
+
+/* -------------------------------------------------------------------------- */
+/*                           Console Welcome Message                          */
+/* -------------------------------------------------------------------------- */
+
+console.log(`            ////////////////////////////////////////\n
+            //       Welcome to my console!       //\n
+            //  Check out my leetcode stats at:   //\n
+            //   https://leetcode.com/pmnord/     //\n
+            ////////////////////////////////////////`)
