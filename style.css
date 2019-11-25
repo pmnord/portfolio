@@ -200,9 +200,7 @@ footer a {
         box-sizing: border-box;
     }
     
-    .hero i {
-        /* display: none; */
-    }
+
     .hero-me {
         width: 35%;
         float: right;
