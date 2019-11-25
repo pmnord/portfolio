@@ -1,4 +1,3 @@
-
 body {
     margin: 0 auto;
     font-size: 0;
@@ -6,17 +5,13 @@ body {
     max-width: 800px;
     font-family: 'Lato', sans-serif;
 }
-main {
-    background-color: white;
-}
-
 a {
     color: black;
 }
 
 header {
     position: fixed;
-    height: 9vh;
+    height: 60px;
     width: 100%;
     text-align: left;
     background-color: black;
@@ -182,16 +177,6 @@ footer a {
 }
 
 @media screen and (min-width: 520px) {
-    .background-ribbon {
-        display: block;
-        position: fixed;
-        z-index: -1;
-        background-color: #ffe1e6;
-        height: 40%;
-        width: 100%;
-        margin-top: 28%;
-        left: 0;
-    }
     body {
         max-width: 800px;
         box-sizing: border-box;
