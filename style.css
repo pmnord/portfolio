@@ -1,3 +1,7 @@
+html {
+    background-color: #fafafa;
+}
+
 body {
     margin: 0 auto;
     font-size: 0;
@@ -5,6 +9,14 @@ body {
     max-width: 800px;
     font-family: 'Open Sans', sans-serif;
 }
+main {
+    background-color: white;
+}
+.background-ribbon {
+    display: none;
+    /* position: absolute; */
+}
+
 a {
     color: black;
 }
@@ -14,7 +26,8 @@ header {
     height: 8vh;
     width: 100%;
     text-align: left;
-    background-color: white;
+    background-color: black;
+    color: white;
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
@@ -41,6 +54,7 @@ nav ul {
 }
 nav li {
     display: inline-block;
+    color: white;
 }
 
 main {
@@ -71,6 +85,7 @@ h2 {
 }
 .hero p {
     margin: 0;
+    font-weight: 700;
 }
 .hero p:nth-of-type(1) {
     text-align: left;
@@ -133,6 +148,16 @@ footer {
 }
 
 @media screen and (min-width: 520px) {
+    .background-ribbon {
+        display: block;
+        position: fixed;
+        z-index: -1;
+        background-color: #ffe1e6;
+        height: 40%;
+        width: 100%;
+        margin-top: 28%;
+        left: 0;
+    }
     body {
         max-width: 800px;
         box-sizing: border-box;
