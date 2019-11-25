@@ -75,6 +75,9 @@ main {
 section {
     box-sizing: border-box;
 }
+h1 {
+    display: none;
+}
 h2 {
     margin: 0;
     padding: 10px;
@@ -154,6 +157,7 @@ h3 {
     text-align: center;
     display: inline-block;
 }
+
 .project .tech-icons {
     height: auto;
     width: 100%;
