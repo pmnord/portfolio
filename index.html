@@ -14,93 +14,63 @@
         <img class="brand" src="images/font-initial-3.png" alt="Brand Image">
         <nav>
             <ul>
-                <a href="">
-                    <li>About</li>
-                </a>
-                <a href="">
-                    <li>Projects</li>
-                </a>
-                <a href="">
-                    <li>Contact</li>
-                </a>
+                <li class="projects-link">
+                    <a href="#projects" class="nav-button">Projects</a>
+                </li>
+                <li class="social-links">
+                    <a href="https://github.com/pmnord" target="_blank" class="nav-button">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/peter-nordman-57528432/" target="_blank" class="nav-button">
+                        <i class="fab fa-linkedin-in fa-2x"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="about">
 
-            <img src="images/me-backpacking-cropped.jpg" alt="Picture of me at Mt San Gorgonio">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam ipsa perspiciatis hic voluptates. Vero voluptatem libero eligendi? Aut, voluptate eum. Numquam ipsa perspiciatis hic voluptates. Vero voluptatem libero eligendi? Aut, voluptate eum.</p>
+            <img class="hero-banner" src="images/banner-placeholder.jpg" alt="landscape saying 'dream it, build it'">
+            <img class="hero-me" src="images/me-backpacking-cropped.jpg" alt="Picture of me at Mt San Gorgonio">
+
+            <p><strong>Welcome to my site!</strong> I'm a Web Developer based out of Raleigh, NC. I love creating user-friendly web apps that emphasize <strong class="readable">readability</strong> and <em class="easy">ease of use</em>. 
+                
+            <p>When I'm not working on web applications I'm usually swimming, reading a book, or playing the latest indie game. Check out some of my projects below!</p>
             
-            <img src="images/me-backpacking-cropped.jpg" alt="Picture of the work that I do">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam ipsa perspiciatis hic voluptates. Vero voluptatem libero eligendi? Aut, voluptate eum. Numquam ipsa perspiciatis hic voluptates. Vero voluptatem libero eligendi? Aut, voluptate eum.</p>
             
-            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-chevron-down my-chevron"></i>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <h2>Projects</h2>
             <div class="project">
-                <img src="images/me-backpacking-cropped.jpg" alt="Project Image" />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio amet in tenetur blanditiis porro accusantium eaque, laborum explicabo esse omnis.</p>
+                <h3>Developer Quiz App</h3>
+                <img src="images/quiz-app-thumbnail.png" alt="Project Image" />
                 <div class="tech-icons">
-                    <i class="fab fa-js fa-2x"></i>
-                    <i class="fab fa-js fa-2x"></i>
-                    <i class="fab fa-js fa-2x"></i>
+                    <i class="fab fa-html5 fa-2x"></i>
+                    <i class="fab fa-css3-alt fa-2x"></i>
                     <i class="fab fa-js fa-2x"></i>
                 </div>
+                <p>This project was developed to demonstrate a grasp of fundamental web technologies as part of the Thinkful program. It features multiple quiz libraries, randomized question order, and score tracking.</p>
+                
             </div>
             <div class="project">
-                <img src="images/me-backpacking-cropped.jpg" alt="Project Image" />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio amet in tenetur blanditiis porro accusantium eaque, laborum explicabo esse omnis.</p>
-                <div class="tech-icons">
-                    <i class="fab fa-js fa-2x"></i>
-                    <i class="fab fa-js fa-2x"></i>
-                    <i class="fab fa-js fa-2x"></i>
-                    <i class="fab fa-js fa-2x"></i>
-                </div>
+                <h3>Capstone #1</h3>
+                <p class="center-align">Coming Soon...</p>
             </div>
             <div class="project">
-                <img src="images/me-backpacking-cropped.jpg" alt="Project Image" />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio amet in tenetur blanditiis porro accusantium eaque, laborum explicabo esse omnis.</p>
-                <div class="tech-icons">
-                    <i class="fab fa-js fa-2x"></i>
-                    <i class="fab fa-js fa-2x"></i>
-                    <i class="fab fa-js fa-2x"></i>
-                    <i class="fab fa-js fa-2x"></i>
-                </div>
+                <h3>Capstone #2</h3>
+                <p class="center-align">Coming Soon...</p>
             </div>
-        </section>
-        <section class="contact">
-            <h2>Contact</h2>
-            <form>
-                <ul>
-                    <li>
-                        <label>Email
-                            <input type="email">
-                        </label>
-                    </li>
-                    <li>
-                        <label>Email
-                            <input type="email">
-                        </label>
-                    </li>
-                    <li>
-                        <label>Email
-                            <input type="email">
-                        </label>
-                    </li>
-                </ul>
-                <button>Submit</button>
-            </form>
-            <div class="social">
-                <a href="https://github.com/pmnord" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-                <a href="https://www.linkedin.com/in/peter-nordman-57528432/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
-                <a href="https://angel.co/peter-nordman" target="_blank"><i class="fab fa-angellist fa-3x"></i></a>
+            <div class="project">
+                <h3>Capstone #3</h3>
+                <p class="center-align">Coming Soon...</p>
             </div>
+            
         </section>
     </main>
     <footer>
-        Hello Footer
+        <p>mail me @ <a href="mailto:peter.m.nordman@gmail.com">peter.m.nordman@gmail.com</a></p>
     </footer>
     <script src="script.js"></script>
 </body>
