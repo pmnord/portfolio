@@ -1,6 +1,3 @@
-html {
-    background-color: #fafafa;
-}
 
 body {
     margin: 0 auto;
@@ -11,10 +8,6 @@ body {
 }
 main {
     background-color: white;
-}
-.background-ribbon {
-    display: none;
-    /* position: absolute; */
 }
 
 a {
