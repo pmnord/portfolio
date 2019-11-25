@@ -1,0 +1,247 @@
+body {
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+    max-width: 800px;
+    font-family: 'Lato', sans-serif;
+}
+a {
+    color: black;
+}
+
+header {
+    position: fixed;
+    height: 9vh;
+    width: 100%;
+    text-align: left;
+    background-color: black;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header img {
+    height: 2.2rem;
+    margin: auto 0;
+}
+header a {
+    height: 35px;
+}
+nav {
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    padding-right: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav li {
+    display: inline-block;
+    color: white;
+}
+.nav-button {
+    color: white;
+    text-decoration: none;
+}
+.projects-link {
+    font-size: 2rem;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+.social-links i {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.social-links .fa-linkedin-in {
+    position: relative;
+    top: 2px;
+}
+
+main {
+    font-size: 1rem;
+}
+
+section {
+    box-sizing: border-box;
+}
+h2 {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.hero {
+    height: 100vh;
+    height: 100vh;
+    padding-top: 10vh;
+}
+.hero-banner {
+    display: none;
+}
+.hero-me {
+    width: 100%;
+}
+.hero p {
+    margin: 0;
+    padding: 10px;
+    line-height: 150%;
+    font-size: 1.3rem;
+    text-align: left;
+}
+.readable {
+    background-color: black;
+    color: #C1F1FF;
+    padding: 1px;
+}
+.easy {
+    color: #303113;
+    font-weight: bold;
+}
+
+.hero i {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.projects {
+    min-height: 100vh;
+    /* background-color: rgba(199,199,199); */
+    background-color: #F2F6FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+h3 {
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1px;
+}
+.projects .project {
+    box-sizing: border-box;
+    width: 100%;
+}
+.project img {
+    width: 100%;
+}
+.project p {
+    margin: 0;
+    text-align: left;
+    padding: 0 5px;
+    font-size: 1.2rem;
+}
+.project p.center-align {
+    text-align: center;
+    display: inline-block;
+}
+.project .tech-icons {
+    height: auto;
+    width: 100%;
+    padding-bottom: 3px;
+}
+.contact {
+    /* background-color: rgba(155,155,155); */
+    background-color: #DADEE6;
+}
+.contact ul {
+    list-style: none;
+}
+.contact li {
+    padding-bottom: 5px;
+}
+.social {
+    padding: 20px;
+}
+.social a {
+    color: #3D3E40;
+}
+footer {
+    height: 8vh;
+    font-size: 1rem;
+}
+footer a {
+    color: #3D3E40;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 520px) {
+    body {
+        max-width: 800px;
+        box-sizing: border-box;
+    }
+    header {
+        max-width: 800px;
+        padding: 0;
+        background-color: white;
+        color: black;
+    }
+    .nav-button {
+        color: black;
+    }
+    header img {
+        height: 32px;
+        margin: auto 0;
+    }
+    header ul {
+        font-size: 1.5rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+
+    .hero-me {
+        width: 35%;
+        float: right;
+    }
+
+    .hero-banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .projects {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 4vh;
+    }
+    
+    .projects .project {
+        min-height: 200px;
+        height: 10%;
+        width: 90%;
+        padding: 5px 15px;
+        margin-bottom: 10px;
+    }
+    .project h3 {
+        margin: 10px 0;
+    }
+    .project p {
+        text-align: left;
+        line-height: 150%;
+    }
+    .projects img {
+        width: 50%;
+        float: left;
+        padding-right: 8px;
+    }
+    .tech-icons {
+        float: left;
+        padding-right: 50%;
+        box-sizing: border-box;
+    }
+
+}
