@@ -27,10 +27,6 @@ header {
     width: 100%;
     text-align: left;
     background-color: black;
-<<<<<<< HEAD
-    color: white;
-=======
->>>>>>> 4990fc44e167da462aaf763e535ae9e04f031b36
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
@@ -62,8 +58,6 @@ nav ul {
 nav li {
     display: inline-block;
     color: white;
-<<<<<<< HEAD
-=======
 }
 .nav-button {
     color: white;
@@ -81,7 +75,6 @@ nav li {
 .social-links .fa-linkedin-in {
     position: relative;
     top: 2px;
->>>>>>> 4990fc44e167da462aaf763e535ae9e04f031b36
 }
 
 main {
@@ -106,15 +99,9 @@ h2 {
 }
 .hero p {
     margin: 0;
-<<<<<<< HEAD
-    font-weight: 700;
-}
-.hero p:nth-of-type(1) {
-=======
     padding: 10px;
     line-height: 150%;
     font-size: 1.3rem;
->>>>>>> 4990fc44e167da462aaf763e535ae9e04f031b36
     text-align: left;
 }
 .readable {
