@@ -178,7 +178,7 @@ footer a {
     body {
         max-width: 900px;
         box-sizing: border-box;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     header {
         position: static;
@@ -225,6 +225,16 @@ footer a {
 
     .hero i {
         display: none;
+    }
+
+    .my-tech {
+        margin: 0 auto;
+    }
+    .my-tech p {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 1.2rem;
     }
     
     .projects {
