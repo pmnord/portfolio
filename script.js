@@ -26,7 +26,7 @@ window.smoothScroll = function(target) {
 }
 
 const chevron = document.querySelector('.my-chevron');
-const projects = document.querySelector('.projects');
+const projects = document.querySelector('.my-tech');
 chevron.addEventListener('click', () => {window.smoothScroll(projects)});
 
 /* -------------------------------------------------------------------------- */

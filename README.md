@@ -13,3 +13,9 @@ https://pmnord.github.io/portfolio/
 6. No css frameworks/templates i.e. no bootstrap
 7. No console errors
 8. Fast load time
+
+## Todos
+1. Make banner 100% view width
+2. Add my-techs section
+3. Make portrait profile aspect instead of landscape
+4. Rewrite bio
