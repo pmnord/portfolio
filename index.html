@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/e0ef984180.js" crossorigin="anonymous"></script>
     <title>Peter Nordman</title>
@@ -31,18 +31,18 @@
         </div>
     </header>
     <main>
-        <img class="hero-banner" src="images/banner-placeholder.jpg" alt="Landscape saying 'dream it, build it'">
+        <img class="hero-banner" src="images/cropped-thomas-ciszewski-erApmfRX7eo-unsplash.jpg" alt="Landscape saying 'dream it, build it'">
         <section class="hero" id="about">
             <h1>About Peter Nordman</h1>
 
             <img class="hero-me-mobile" src="images/me-backpacking-cropped.jpg" alt="Picture of me at Mt San Gorgonio">
             <img class="hero-me-desktop" src="images/me-backpacking-profile.jpg" alt="Picture of me at Mt San Gorgonio">
 
-            <p><strong>Welcome to my site!</strong> I'm a Web Developer based out of Raleigh, NC. I love creating user-friendly web apps that emphasize <strong class="readable">readability</strong> and <strong class="readable">user experience.</strong></p> 
+            <p>Welcome to my site! I'm a Web Developer based in Raleigh, NC. I love creating user-friendly web apps that emphasize <strong class="readable">readability</strong> and <strong class="readable">user experience.</strong></p> 
             
             <p>Web technology is constantly evolving, and I'm always on the look out for a new library or project to try next. Check out some of my work below.</p>
                 
-            <i class="fas fa-chevron-down my-chevron"></i>
+            <!-- <i class="fas fa-chevron-down my-chevron"></i> -->
             
             
 
@@ -57,17 +57,26 @@
         <section class="projects" id="projects">
             <h2>Projects</h2>
             <div class="project">
+
                 <h3>Developer Quiz App</h3>
-                <img src="images/quiz-app-thumbnail.png" alt="Developer Quiz App Thumbnail" />
-                <div class="tech-icons">
-                    <i class="fab fa-html5 fa-2x"></i>
-                    <i class="fab fa-css3-alt fa-2x"></i>
-                    <i class="fab fa-js fa-2x"></i>
+                <div class="grid-50">
+                    <div>
+                    <img src="images/quiz-app-thumbnail.png" alt="Developer Quiz App Thumbnail" />
+                    <div class="tech-icons">
+                        <i class="fab fa-html5 fa-2x"></i>
+                        <i class="fab fa-css3-alt fa-2x"></i>
+                        <i class="fab fa-js fa-2x"></i>
+                        <p><a href="https://pmnord.github.io/front-end-quiz-app/" target="_blank"><strong>Live Demo</strong></a></p>
+                    </div> 
+                    </div>
+                    
+                    <div>
+                        <p>This project was developed to demonstrate a grasp of fundamental web technologies as part of the Thinkful program. It features multiple quiz libraries, randomized question order, and score tracking.<br></p>
+                    <p><a href="https://github.com/pmnord/front-end-quiz-app" target="_blank"><strong>Code Repository</strong></a></p>
+                    </div>
                 </div>
-                <p>This project was developed to demonstrate a grasp of fundamental web technologies as part of the Thinkful program. It features multiple quiz libraries, randomized question order, and score tracking.<br><a href="https://pmnord.github.io/front-end-quiz-app/" target="_blank"><strong>Live Demo</strong></a><br><a href="https://github.com/pmnord/front-end-quiz-app" target="_blank"><strong>Code Repository</strong></a></p> 
+                
             </div>
-            
-            
         </section>
     </main>
     <footer>
@@ -75,6 +84,7 @@
         <!-- <p>HTML logo By <a rel="nofollow" class="external text" href="http://www.w3.org/html/logo/index.html">W3C</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=12736763">Link</a></p>
         <p>CSS logo By Rudloff - <a class="external free" href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg">https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=49121103">Link</a></p>
         <p>JS logo by Unofficial JavaScript logo by Chris Williams, from <a href="https://github.com/voodootikigod/logo.js">GitHub logo.js</a>, under <a href="https://github.com/voodootikigod/logo.js/blob/master/LICENSE">very permissive licensing (WTFPL)</a>.</p> -->
+        <p class="photo-credit">photo by <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@coc6?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Thomas Ciszewski"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Thomas Ciszewski</span></a></p>
     </footer>
     <script src="script.js"></script>
 </body>

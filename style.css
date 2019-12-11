@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     font-size: 0;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 a {
     color: black;
@@ -112,9 +112,8 @@ h2 {
     box-sizing: border-box;
 }
 .hero {
-    height: 100vh;
-    height: 100vh;
     padding-top: 70px;
+    min-height: 100vh;
 }
 .hero-banner {
     display: none;
@@ -141,6 +140,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     padding: 5px 0;
+    background-color: #D1DEE8;
 }
 .my-tech img {
     height: 50px;
@@ -160,7 +160,7 @@ h3 {
     font-size: 1.5rem;
     padding: 1px;
 }
-.projects .project {
+.project {
     box-sizing: border-box;
     width: 100%;
 }
@@ -182,6 +182,19 @@ h3 {
     height: auto;
     width: 100%;
     padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+}
+.tech-icons * {
+    padding-right: 3px;
+}
+
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
 }
 
 footer {
@@ -193,18 +206,24 @@ footer a {
     text-decoration: underline;
     font-weight: bold;
 }
+.photo-credit {
+    display: none;
+}
 
 @media screen and (min-width: 520px) {
     body {
         box-sizing: border-box;
-        margin-top: 50px;
     }
     header {
-        position: static;
+        position: fixed;
         width: 100%;
-        padding: 0;
+        height: 80px;
+
         background-color: white;
         color: black;
+
+        display: flex;
+        align-items: center;
     }
     header div {
         max-width: 1000px;
@@ -220,6 +239,9 @@ footer a {
         box-sizing: border-box;
     }
     
+    .projects-link {
+        padding-left: 17px;
+    }
     .nav-button {
         color: black;
     }
@@ -234,13 +256,15 @@ footer a {
     .hero-banner {
         display: block;
         width: 100%;
+        padding-top: 60px;
     }
 
     .hero {
-        padding-top: 40px;
+        margin: 60px auto;
+        padding: 0;
         max-width: 1000px;
-        margin: 0 auto;
-        height: 400px;
+        height: auto;
+        min-height: 220px;
     }
     .hero-me-mobile {
         display: none;
@@ -248,15 +272,22 @@ footer a {
     .hero-me-desktop {
         display: block;
         float: right;
-        width: 200px;
+        height: 220px;
         border-radius: 5px;
+        box-shadow: 5px 2.5px 5px black;
     }
     .hero i {
         display: none;
     }
+    .hero p {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .readable {
+        border-radius: 2px;
+    }
 
     .my-tech {
-        max-width: 1000px;
         margin: 0 auto;
         padding: 20px 0;
         justify-content: center;
@@ -271,17 +302,22 @@ footer a {
         justify-content: space-evenly;
         align-items: center;
         min-height: 0;
-        max-width: 1000px;
         margin: 0 auto;
     }
     
-    .projects .project {
+    .project {
         min-height: 200px;
         height: 10%;
-        width: 90%;
+        max-width: 1000px;
         padding: 5px 15px;
         margin-bottom: 10px;
     }
+
+    .grid-50 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
     .project h3 {
         margin: 20px 0;
         background-color: transparent;
@@ -293,14 +329,16 @@ footer a {
         line-height: 150%;
     }
     .projects img {
-        width: 50%;
+        width: 100%;
         float: left;
         padding-right: 8px;
     }
     .tech-icons {
-        float: left;
-        padding-right: 50%;
         box-sizing: border-box;
+    }
+
+    .photo-credit {
+        display: block;
     }
 
 }
