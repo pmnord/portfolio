@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap');
+
 body {
     margin: 0 auto;
     font-size: 0;
@@ -28,9 +30,10 @@ header div {
     box-sizing: border-box;
 }
 
-.sticky {
-    position: fixed;
+.hidden {
+    display: none;
 }
+
 header img {
     height: 2.2rem;
     margin: auto 0;
