@@ -5,9 +5,10 @@ body {
     font-size: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    color: rgba(0,0,0,0.87);
 }
 a {
-    color: black;
+    color: rgba(0,0,0,0.87);
 }
 
 header {
@@ -16,7 +17,7 @@ header {
     width: 100%;
     box-sizing: border-box;
     text-align: left;
-    background-color: black;
+    background-color: rgba(0,0,0,0.87);
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
@@ -98,7 +99,7 @@ h2 {
 }
 
 .readable {
-    background-color: black;
+    background-color: rgba(0,0,0,0.87);
     color: #C1F1FF;
     padding: 0 4px;
     display: inline-block;
@@ -106,7 +107,7 @@ h2 {
     box-sizing: border-box;
 }
 .easy {
-    color: black;
+    color: rgba(0,0,0,0.87);
     background-color: #C1CCAD;
     padding: 2px 4px;
     font-weight: 600;
@@ -139,13 +140,14 @@ h2 {
     margin: 0 auto;
     padding-top: 30px;
 }
-.my-tech {
+.badges {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 5px 0;
     background-color: #D1DEE8;
 }
-.my-tech img {
+.badges img {
     height: 50px;
 }
 .projects {
@@ -157,7 +159,7 @@ h2 {
     padding-bottom: 25px;
 }
 h3 {
-    background: black;
+    background: rgba(0,0,0,0.87);
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
@@ -181,22 +183,21 @@ h3 {
     display: inline-block;
 }
 
-.project .tech-icons {
+.project-nav {
     height: auto;
+    margin-top: 5px;
+    padding: 5px;
+    box-sizing: border-box;
     width: 100%;
-    padding-bottom: 3px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    font-size: 1.2rem;
 }
-.tech-icons * {
-    padding-right: 3px;
-}
-
 
 .project-links {
     display: flex;
     justify-content: space-between;
-
     width: 100%;
 }
 
@@ -223,7 +224,7 @@ footer a {
         height: 80px;
 
         background-color: white;
-        color: black;
+        color: rgba(0,0,0,0.87);
 
         display: flex;
         align-items: center;
@@ -246,7 +247,7 @@ footer a {
         padding-left: 17px;
     }
     .nav-button {
-        color: black;
+        color: rgba(0,0,0,0.87);
     }
     .sticky {
         position: fixed;
@@ -277,7 +278,7 @@ footer a {
         float: right;
         height: 220px;
         border-radius: 5px;
-        box-shadow: 5px 2.5px 5px black;
+        box-shadow: 5px 2.5px 5px rgba(0,0,0,0.87);
     }
     .hero i {
         display: none;
@@ -290,12 +291,12 @@ footer a {
         border-radius: 2px;
     }
 
-    .my-tech {
+    .badges {
         margin: 0 auto;
         padding: 20px 0;
         justify-content: center;
     }
-    .my-tech img {
+    .badges img {
         height: 75px;
         padding: 10px;
     }
@@ -315,29 +316,33 @@ footer a {
         padding: 5px 15px;
         margin-bottom: 10px;
     }
-
-    .grid-50 {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-
     .project h3 {
         margin: 20px 0;
         background-color: transparent;
-        color: black;
-        border-bottom: solid 1px black;
+        color: rgba(0,0,0,0.87);
+        border-bottom: solid 1px rgba(0,0,0,0.87);
     }
-    .project p {
-        text-align: left;
-        line-height: 150%;
+    .grid-50 {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
     .projects img {
         width: 100%;
         float: left;
         padding-right: 8px;
     }
-    .tech-icons {
-        box-sizing: border-box;
+    .project-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .project-about p {
+        text-align: left;
+        line-height: 150%;
+    }
+    .project-nav {
+        width: 80%;
+        margin: 0 auto;
     }
 
     .photo-credit {
