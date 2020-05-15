@@ -55,8 +55,7 @@
 /*                           Console Welcome Message                          */
 /* -------------------------------------------------------------------------- */
 
-console.log(`            ////////////////////////////////////////\n
-            //       Welcome to my console!       //\n
-            //  Check out my leetcode stats at:   //\n
-            //   https://leetcode.com/pmnord/     //\n
+console.log(`               ////////////////////////////////////////\n
+              //  Check out my leetcode stats at:   //\n
+             //   https://leetcode.com/pmnord/     //\n
             ////////////////////////////////////////`)
