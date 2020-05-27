@@ -84,6 +84,7 @@ z-index: -1;
 .hero-banner__text {
     color: white;
     font-size: 1.5rem;
+    user-select: none;
 }
 
 
