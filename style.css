@@ -10,6 +10,9 @@ body {
 a {
     color: rgba(0,0,0,0.87);
 }
+a:hover {
+    color: rgba(0,0,0,0.67);
+}
 
 header {
     position: fixed;
@@ -134,12 +137,13 @@ z-index: -1;
     padding-bottom: 25px;
     flex-wrap: wrap;
 }
-h3 {
+.project h3 {
     background: rgba(0,0,0,0.87);
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
     padding: 1px;
+    margin-top: 0;
 }
 .project {
     /* min-height: 200px;
@@ -147,7 +151,7 @@ h3 {
     max-width: 1000px;
     padding: 5px 15px;
     margin-bottom: 10px; */
-    width: 30rem;
+    width: 18rem;
     padding: 1rem;
     margin: 1rem;
     background-color:rgb(242, 246, 255);
