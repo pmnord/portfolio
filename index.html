@@ -15,7 +15,7 @@
         <div>
             <nav>
                 <ul>
-                    <li class="projects-link">
+                    <li>
                         <a href="#projects" class="nav-button">Projects</a>
                     </li>
                     <li>
@@ -38,37 +38,49 @@
         </div>
     </header>
     <main>
-        <div class="hero-banner" alt="Aerial shot of the coastline"></div>
+        <div class="hero-banner" alt="A valley with light">
+            
+        </div>
+
         <section class="hero" id="about">
-            <h1>About Peter Nordman</h1>
+            <h2 class="hidden">About Peter Nordman</h2>
 
-            <img class="hero-me-mobile" src="images/headshot-bright.jpg" alt="Picture of me at Mt San Gorgonio">
-            <img class="hero-me-desktop" src="images/headshot-bright.jpg" alt="Picture of me at Mt San Gorgonio">
-
-            <p>I love creating applications that deliver a smooth user experience with cleanly written code.
-                I'm always on the look out for a new library try building a project around. Check out some of the things
-                I've made below!</p>
-
-            <!-- <i class="fas fa-chevron-down my-chevron"></i> -->
-
+            
+            <div>
+                <p>I love creating applications that deliver a smooth user experience with cleanly written code.
+                    </p>
+                
+                    <p>Check out some of the things
+                    I've made below!</p>
+            </div>
+                
+            <img class="hero-headshot" src="images/headshot-bright.jpg" alt="Picture of Peter Nordman">
 
 
         </section>
         <section class="badges">
             <h2 class="hidden">My tech badges</h2>
-            <img src="images/html5-badge.svg" alt="html5 logo">
-            <img src="images/css3-badge.svg" alt="css logo">
-            <img src="images/javascript-badge.png" alt="javascript logo">
-            <img src="images/jquery-badge.png" alt="jquery logo">
-            <img src="images/react-badge.svg" alt="react logo">
-            <img src="images/node-badge.png" alt="node logo">
-            <!-- <img src="images/mongodb-badge.png" alt="mongodb logo">
-                <img src="images/sql-badge.png" alt="sql logo"> -->
+            <img class="badges__badge" src="images/html5-badge.svg" alt="html5 logo">
+            <span class="badges__tag" style="color: transparent; position: absolute;">HTML</span>
+            <img class="badges__badge" src="images/css3-badge.svg" alt="css logo">
+            <span class="badges__tag" style="color: transparent; position: absolute;">CSS</span>
+            <img class="badges__badge" src="images/javascript-badge.png" alt="javascript logo">
+            <span class="badges__tag" style="color: transparent; position: absolute;">JavaScript</span>
+            <img class="badges__badge" src="images/jquery-badge.png" alt="jquery logo">
+            <span class="badges__tag" style="color: transparent; position: absolute;">jQuery</span>
+            <img class="badges__badge" src="images/react-badge.svg" alt="react logo">
+            <span class="badges__tag" style="color: transparent; position: absolute;">React</span>
+            <img class="badges__badge" src="images/node-badge.png" alt="node logo">
+            <span class="badges__tag" style="color: transparent; position: absolute;">Node.js</span>
+            <img class="badges__badge" src="images/PostgreSQL_logo.3colors.svg" alt="PostgreSQL">
+            <span class="badges__tag" style="color: transparent; position: absolute;">PostgreSQL</span>
         </section>
+
+        <h2>Projects</h2>
         <section class="projects" id="projects">
 
             <div class="project">
-                <h3>We Do</h3>
+                <h3>Issue Tracker</h3>
                 <div class="grid-50">
                     <div>
                         <!-- <img src="images/sarah-dorweiler-m2J105CzEAU-unsplash.jpg" alt="A healthy plant" /> -->
@@ -81,6 +93,7 @@
                         <div class="project-nav">
                             <div class="tech-icons">
                                 <i class="fab fa-html5 fa-2x"></i>
+                                <span class="badges__tag" style="color: transparent; position: absolute;">HTML</span>
                                 <i class="fab fa-css3-alt fa-2x"></i>
                                 <i class="fab fa-js fa-2x"></i>
                                 <i class="fab fa-react fa-2x"></i>
@@ -103,7 +116,7 @@
 
                     <div class="project-about">
                         <p>A full stack application using React and Node that allows the user to maintain a library of
-                            plants, get inspiration, and receive information about their plants from a dedicated plant
+                            plants, get inspiration, and learn more about their plants from the Trefle plant
                             API.</p>
 
                         <div class="project-nav">
@@ -123,7 +136,7 @@
             </div>
 
             <div class="project">
-                <h3>OpenDota User Search</h3>
+                <h3>OpenDota API User Search</h3>
                 <div class="grid-50">
                     <div>
                         <img src="images/dota-app-ss-2.png" alt="Dota2 Player Search Thumbnail" />
@@ -151,11 +164,11 @@
         </section>
     </main>
     <footer>
-        <p>email me @ <a href="mailto:peter.m.nordman@gmail.com">peter.m.nordman@gmail.com</a></p>
+        <p>Contact me: <a href="mailto:peter.m.nordman@gmail.com">peter.m.nordman@gmail.com</a></p>
         <!-- <p>HTML logo By <a rel="nofollow" class="external text" href="http://www.w3.org/html/logo/index.html">W3C</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=12736763">Link</a></p>
         <p>CSS logo By Rudloff - <a class="external free" href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg">https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=49121103">Link</a></p>
         <p>JS logo by Unofficial JavaScript logo by Chris Williams, from <a href="https://github.com/voodootikigod/logo.js">GitHub logo.js</a>, under <a href="https://github.com/voodootikigod/logo.js/blob/master/LICENSE">very permissive licensing (WTFPL)</a>.</p> -->
-        <p class="photo-credit">photo by <a
+        <!-- <p class="photo-credit">photo by <a
                 style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
                 href="https://unsplash.com/@coc6?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
                 target="_blank" rel="noopener noreferrer"
@@ -165,7 +178,7 @@
                         viewBox="0 0 32 32">
                         <title>unsplash-logo</title>
                         <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
-                    </svg></span><span style="display:inline-block;padding:2px 3px">Thomas Ciszewski</span></a></p>
+                    </svg></span><span style="display:inline-block;padding:2px 3px">Thomas Ciszewski</span></a></p> -->
     </footer>
     <script src="script.js"></script>
 </body>
