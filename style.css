@@ -13,21 +13,20 @@ a {
 a:hover {
     color: rgba(0,0,0,0.67);
 }
+.hidden {
+    display: none;
+}
 
 header {
     position: fixed;
     height: 4rem;
     width: 100%;
     box-sizing: border-box;
-    text-align: left;
     /* background-color: rgb(234,239,242); */
     background-color: rgb(242, 246, 255);
     display: flex;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
     box-shadow: 0px 4px 8px 3px rgba(17, 17, 17, .05);
-
 }
 header div {
     display: flex;
@@ -37,9 +36,10 @@ header div {
     box-sizing: border-box;
 }
 
-.hidden {
-    display: none;
+.header-spacer {
+    height: 4rem;
 }
+
 
 nav {
     font-size: 1.3rem;
@@ -69,7 +69,9 @@ section {
 
 
 .hero-banner {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50vh;
     margin: 0 auto;
     background-image: url("images/caleb-russell-gYUK48mFopg-unsplash.jpg");
@@ -79,6 +81,10 @@ background-position: 50% 50%;
 z-index: -1;
 }
 
+.hero-banner__text {
+    color: white;
+    font-size: 1.5rem;
+}
 
 
 .hero {
@@ -130,6 +136,12 @@ z-index: -1;
     padding: 1rem;
 }
 
+#projects {
+    /* h2 is 24px or 1.5rem by default */
+    /* projects has a top margin of 0.5rem, so this line places the projects h2 center */
+    margin-top: 2rem; 
+}
+
 .projects {
     display: flex;
     justify-content: center;
@@ -173,7 +185,7 @@ z-index: -1;
     margin: 0;
     text-align: left;
     padding: 1rem 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .project p.center-align {
     text-align: center;
@@ -255,16 +267,7 @@ footer a {
     .sticky + main {
         padding-top: 60px;
     }
-    .hero-banner {
-        display: block;
-        height: 50vh;
-        margin: 0 auto;
-        background-image: url("images/caleb-russell-gYUK48mFopg-unsplash.jpg");
-        background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  z-index: -1;
-    }
+
 
     
 
