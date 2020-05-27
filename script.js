@@ -9,13 +9,13 @@
 //         if (!scrollContainer) return;
 //         scrollContainer.scrollTop += 1;
 //     } while (scrollContainer.scrollTop == 0);
-    
+
 //     var targetY = 0;
 //     do { // Find the top of target relative to the container
 //         if (target == scrollContainer) break;
 //         targetY += target.offsetTop;
 //     } while (target = target.offsetParent);
-    
+
 //     scroll = function(c, a, b, i) {
 //         i++; if (i > 30) return;
 //         c.scrollTop = a + (b - a) / 30 * i;
@@ -55,8 +55,11 @@
 /*                           Console Welcome Message                          */
 /* -------------------------------------------------------------------------- */
 
-console.log(`            ////////////////////////////////////////\n
-            //       Welcome to my console!       //\n
-            //  Check out my leetcode stats at:   //\n
-            //   https://leetcode.com/pmnord/     //\n
-            ////////////////////////////////////////`)
+console.log(`
+                ////////////////////////////////////////\n
+               //                                    //\n
+              //  Check out my leetcode stats at:   //\n
+             //   https://leetcode.com/pmnord/     //\n
+            //                                    //\n
+           ////////////////////////////////////////
+            `)
