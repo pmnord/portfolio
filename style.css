@@ -64,23 +64,19 @@ section {
     box-sizing: border-box;
 }
 
-.readable {
-    background-color: rgba(0,0,0,0.87);
-    color: #C1F1FF;
-    padding: 0 4px;
-    display: inline-block;
-    height: 33px;
-    box-sizing: border-box;
+
+.hero-banner {
+    display: block;
+    height: 50vh;
+    margin: 0 auto;
+    background-image: url("images/caleb-russell-gYUK48mFopg-unsplash.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+z-index: -1;
 }
-.easy {
-    color: rgba(0,0,0,0.87);
-    background-color: #C1CCAD;
-    padding: 2px 4px;
-    font-weight: 600;
-    font-family: 'Oswald';
-    letter-spacing: 1px;
-    box-sizing: border-box;
-}
+
+
 
 .hero {
     display: flex;
@@ -95,7 +91,7 @@ section {
     margin: 0;
     padding: 10px;
     line-height: 150%;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: left;
     background
 }
@@ -133,9 +129,10 @@ section {
 
 .projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     padding-bottom: 25px;
+    flex-wrap: wrap;
 }
 h3 {
     background: rgba(0,0,0,0.87);
@@ -163,10 +160,15 @@ h3 {
     width: 100%;
     box-sizing: border-box;
 }
+
+.tech-icons i {
+    padding: 0 0.2rem;
+}
+
 .project p {
     margin: 0;
     text-align: left;
-    padding: 0 5px;
+    padding: 1rem 5px;
     font-size: 1.2rem;
 }
 .project p.center-align {
@@ -181,7 +183,7 @@ h3 {
     box-sizing: border-box;
     width: 100%;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
     align-items: center;
     font-size: 1.2rem;
 }
