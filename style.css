@@ -19,7 +19,7 @@ a:hover {
 }
 
 .icon-tag {
-    color: transparent; 
+    color: transparent;
     position: absolute;
     user-select: none;
 }
@@ -220,12 +220,14 @@ section {
 
 footer {
     margin: 0;
-    padding: 1rem;
-    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
     background-color: hsl(0, 0%, 95%);
 }
 footer p {
     margin: 0;
+    padding: 0.3rem 0;
 }
 footer a {
     color: #3D3E40;
