@@ -19,8 +19,9 @@ a:hover {
 }
 
 .icon-tag {
-    color: transparent;
     position: absolute;
+    z-index: -1;
+    color: transparent;
     user-select: none;
 }
 
