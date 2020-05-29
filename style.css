@@ -93,6 +93,14 @@ section {
     color: white;
     font-size: 1.5rem;
     user-select: none;
+    background: hsl(0, 0%, 0%, 0.2);
+    box-shadow: 0px 0px 20px 20px hsl(0, 0%, 0%, 0.2);
+    border-radius: 1px;
+}
+
+.hero-banner__text h1 {
+    padding: 0;
+    margin: 0rem;
 }
 
 
@@ -183,7 +191,12 @@ section {
 
 .project img {
     width: 100%;
+}
+.project__img-box {
     box-sizing: border-box;
+    height: 12.5rem;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
 }
 
 .tech-icons i {
