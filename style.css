@@ -106,6 +106,7 @@ section {
 
 .hero {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     padding: 2rem;
@@ -119,23 +120,13 @@ section {
     line-height: 150%;
     font-size: 1rem;
     text-align: left;
-    background
 }
 
 .hero-headshot {
-    display: block;
-    float: right;
     height: 16rem;
     border-radius: 1px;
     border-radius: 5px;
-    /* border: solid 0.5px hsl(0, 0%, 90%); */
     box-shadow: 0 0 3px rgba(51,51,51,.3);
-}
-
-.hero i {
-    display: block;
-    margin: 0 auto;
-    padding-top: 30px;
 }
 
 .badges {
@@ -144,8 +135,6 @@ section {
     justify-content: center;
     padding: 5px 0;
     background-color: rgb(242, 246, 255);
-    /* background-color: rgb(234,239,242); */
-    /* box-shadow: 0px 4px 8px 3px rgba(17, 17, 17, .06); */
 }
 
 .badges img {
@@ -185,7 +174,6 @@ section {
     margin: 1rem;
     background-color:rgb(242, 246, 255);
     border-radius: 5px;
-    /* border: solid 0.5px hsl(0, 0%, 90%); */
     box-shadow: 0 0 3px rgba(51,51,51,.3);
 }
 
@@ -224,12 +212,6 @@ section {
     grid-template-columns: 50% 50%;
     align-items: center;
     font-size: 1.2rem;
-}
-
-.project-links {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
 }
 
 footer {
@@ -274,6 +256,7 @@ footer a {
         height: 38px;
         margin: auto 0;
     }
+
     header ul {
         font-size: 1.5rem;
         box-sizing: border-box;
@@ -293,30 +276,13 @@ footer a {
 
     .hero-headshot {
         display: block;
+        /* padding: 1rem; */
+    }
+    
+    .hero-headshot {
         float: right;
-        height: 16rem;
-        border-radius: 1px;
-        box-shadow: 0 4px 8px 3px rgba(17,17,17,.06);
-        border-radius: 2px;
-    /* border: solid 0.5px hsl(0, 0%, 90%); */
-    box-shadow: 0 0 3px rgba(51,51,51,.3);
-    }
-    .hero i {
-        display: none;
-    }
-    .hero p {
-        padding-top: 0;
-        padding-bottom: 40px;
-    }
-    .readable {
-        border-radius: 2px;
-    }
-    
-    
-
-    .photo-credit {
-        display: block;
-    }
+        margin-left: 0.2rem;
+    }    
 
 }
 
