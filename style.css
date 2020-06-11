@@ -91,11 +91,11 @@ section {
 
 .hero-banner__text {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     user-select: none;
-    background: rgba(57,50,34, 0.2);
+    /* background: rgba(57,50,34, 0.2);
     box-shadow: 0px 0px 40px 40px rgba(57,50,34, 0.2);
-    border-radius: 1px;
+    border-radius: 1px; */
 }
 
 .hero-banner__text h1 {
@@ -252,20 +252,19 @@ footer a {
     display: none;
 }
 
+@media screen and (max-width: 520px) {
+    .hero-banner__text {
+        background: rgba(57,50,34, 0.2);
+        box-shadow: 0px 0px 40px 40px rgba(57,50,34, 0.2);
+        border-radius: 1px;
+    }
+}
+
 @media screen and (min-width: 520px) {
     body {
         box-sizing: border-box;
     }
-    /* header {
-        position: fixed;
-        width: 100%;
 
-        background-color: white;
-        color: rgba(0,0,0,0.87);
-
-        display: flex;
-        align-items: center;
-    } */
     header div {
         max-width: 1000px;
         margin: 0 auto;
@@ -291,9 +290,6 @@ footer a {
     .sticky + main {
         padding-top: 60px;
     }
-
-
-    
 
     .hero-headshot {
         display: block;
