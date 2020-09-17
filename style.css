@@ -238,6 +238,22 @@ footer a {
     display: none;
 }
 
+.tags {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag {
+    background-color: hsl(222, 100%, 92%);
+    padding: 0.3rem;
+    margin: 0.2rem;
+    display: block;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 16%);
+    border-radius: 20px;
+}
+
 @media screen and (max-width: 520px) {
     .hero-banner__text {
         background: rgba(57,50,34, 0.2);
