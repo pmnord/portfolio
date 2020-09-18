@@ -80,7 +80,7 @@ section {
     height: 40vh;
     margin: 0 auto;
     padding-top: 5rem;
-    background-image: url("images/caleb-russell-gYUK48mFopg-unsplash.jpg");
+    background-image: url("images/caleb-russell-gYUK48mFopg-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -189,6 +189,7 @@ section {
 
 .project img {
     width: 100%;
+    
 }
 .project__img-box {
     box-sizing: border-box;
