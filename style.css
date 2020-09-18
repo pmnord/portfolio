@@ -160,11 +160,11 @@ section {
     flex-wrap: wrap;
 }
 .project h3 {
-    background: rgba(0,0,0,0.87);
+    background: rgba(0,0,0,0.92);
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
-    padding: 1px;
+    padding: 0.5rem;
     margin-top: 0;
 }
 .project {
@@ -173,12 +173,18 @@ section {
     max-width: 1000px;
     padding: 5px 15px;
     margin-bottom: 10px; */
-    width: 18rem;
-    padding: 1rem;
+    width: 20rem;
+    /* padding: 1rem; */
     margin: 1rem;
+    overflow: hidden;
     background-color:rgb(242, 246, 255);
     border-radius: 5px;
     box-shadow: 0 0 3px rgba(51,51,51,.3);
+    box-sizing: border-box;
+}
+
+.grid-50 {
+    margin: 1rem;
 }
 
 .project img {
