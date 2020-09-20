@@ -1,337 +1,327 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap");
 
 body {
-    margin: 0 auto;
-    font-size: 0;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: rgba(0,0,0,0.87);
+  margin: 0 auto;
+  font-size: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
 }
 a {
-    color: rgba(0,0,0,0.87);
+  color: rgba(0, 0, 0, 0.87);
 }
 a:hover {
-    color: rgba(0,0,0,0.67);
+  color: rgba(0, 0, 0, 0.67);
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .icon-tag {
-    position: absolute;
-    z-index: -1;
-    color: transparent;
-    user-select: none;
+  position: absolute;
+  z-index: -1;
+  color: transparent;
+  user-select: none;
 }
 
 header {
-    position: fixed;
-    height: 5rem;
-    width: 100%;
-    box-sizing: border-box;
-    /* background-color: rgb(234,239,242); */
-    background-color: rgb(242, 246, 255);
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0px 4px 8px 3px rgba(17, 17, 17, .05);
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(242, 246, 255);
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 8px 3px rgba(17, 17, 17, 0.05);
 }
 header div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
 }
-
 
 nav {
-    font-size: 1.3rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
 }
 nav ul {
-    list-style: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    box-sizing: border-box;
-    font-size: 1.5rem;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 1.5rem;
 }
 
 main {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 section {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-
 .hero-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    margin: 0 auto;
-    padding-top: 5rem;
-    background-image: url("images/caleb-russell-gYUK48mFopg-unsplash.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin: 0 auto;
+  padding-top: 5rem;
+  background-image: linear-gradient(
+      rgba(57, 50, 34, 0.3),
+      rgba(57, 50, 34, 0.3)
+    ),
+    url(images/caleb-russell-gYUK48mFopg-unsplash.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: -1;
 }
 
 .hero-banner__text {
-    color: white;
-    font-size: 1.7rem;
-    user-select: none;
-    background: rgba(57,50,34, 0.3);
-    /* box-shadow: 0px 0px 40px 40px rgba(57,50,34, 0.2); */
-    border-radius: 1px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: white;
+  font-size: 1.7rem;
+  user-select: none;
+  border-radius: 1px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-banner__text h1 {
-    padding: 0;
-    margin: 0rem;
-    font-size: 4rem;
+  padding: 0;
+  margin: 0rem;
+  font-size: 4rem;
 }
 
-
 .hero {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 2rem 0.5rem;
-    max-width: 900px;
-    margin: 2rem auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 0.5rem;
+  max-width: 900px;
+  margin: 2rem auto;
 }
 
 .hero p {
-    margin: 0;
-    padding: 10px;
-    line-height: 150%;
-    font-size: 1.3rem;
-    text-align: left;
+  margin: 0;
+  padding: 10px;
+  line-height: 150%;
+  font-size: 1.3rem;
+  text-align: left;
 }
 
 .hero-headshot {
-    height: 18rem;
-    border-radius: 1px;
-    border-radius: 5px;
-    box-shadow: 0 0 3px rgba(51,51,51,.3);
+  height: 18rem;
+  border-radius: 1px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(51, 51, 51, 0.3);
 }
 
 .badges {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1.5rem 0;
-    background-color: rgb(242, 246, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem 0;
+  background-color: rgb(242, 246, 255);
 }
 
 .badges img {
-    height: 3.5rem;
-    padding: 1rem;
+  height: 3.5rem;
+  padding: 1rem;
 }
 
 #projects {
-    /* h2 is 24px or 1.5rem by default */
-    /* projects has a top margin of 0.5rem, so this line places the projects h2 center */
-    margin-top: 2rem; 
+  /* h2 is 24px or 1.5rem by default */
+  /* projects has a top margin of 0.5rem, so this line places the projects h2 center */
+  margin-top: 2rem;
 }
 
 .projects {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-bottom: 25px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 25px;
+  flex-wrap: wrap;
 }
 .project h3 {
-    background: rgba(0,0,0,0.92);
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
+  background: rgba(0, 0, 0, 0.92);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-top: 0;
 }
 .project {
-    /* min-height: 200px;
-    height: 10%;
-    max-width: 1000px;
-    padding: 5px 15px;
-    margin-bottom: 10px; */
-    width: 20rem;
-    /* padding: 1rem; */
-    margin: 1rem;
-    overflow: hidden;
-    background-color:rgb(242, 246, 255);
-    border-radius: 5px;
-    box-shadow: 0 0 3px rgba(51,51,51,.3);
-    box-sizing: border-box;
+  width: 20rem;
+  margin: 1rem;
+  overflow: hidden;
+  background-color: rgb(242, 246, 255);
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(51, 51, 51, 0.3);
+  box-sizing: border-box;
 }
 
 .grid-50 {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .project img {
-    width: 100%;
-    
+  width: 100%;
 }
 .project__img-box {
-    box-sizing: border-box;
-    height: 12.5rem;
-    overflow: hidden;
-    margin-bottom: 0.5rem;
+  box-sizing: border-box;
+  height: 12.5rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
 }
 
 .tech-icons i {
-    padding: 0 0.2rem;
+  padding: 0 0.2rem;
 }
 
 .project p {
-    margin: 0;
-    text-align: left;
-    padding: 1rem 5px;
-    font-size: 1rem;
+  margin: 0;
+  text-align: left;
+  padding: 1rem 5px;
+  font-size: 1rem;
 }
 .project p.center-align {
-    text-align: center;
-    display: inline-block;
+  text-align: center;
+  display: inline-block;
 }
 
 .project-nav {
-    height: auto;
-    margin-top: 5px;
-    padding: 5px;
-    box-sizing: border-box;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    font-size: 1.2rem;
+  height: auto;
+  margin-top: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
 footer {
-    margin: 0;
-    margin-top: 2rem;
-    padding: 0.5rem;
-    font-size: 0.8rem;
-    background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  background-color: hsl(0, 0%, 95%);
 }
 footer p {
-    margin: 0;
-    padding: 0.8rem 0;
+  margin: 0;
+  padding: 0.8rem 0;
 }
 footer a {
-    color: #3D3E40;
-    text-decoration: underline;
-    font-weight: bold;
+  color: #3d3e40;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .photo-credit {
-    display: none;
+  display: none;
 }
 
 .tags {
-    margin-top: 16px;
-    display: flex;
-    flex-wrap: wrap;
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .tag {
-    background-color: hsl(222, 100%, 92%);
-    padding: 0.3rem;
-    margin: 0.2rem;
-    display: block;
-    font-size: 0.7rem;
-    font-weight: bold;
-    color: hsl(0, 0%, 16%);
-    border-radius: 20px;
+  background-color: hsl(222, 100%, 92%);
+  padding: 0.3rem;
+  margin: 0.2rem;
+  display: block;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 16%);
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 520px) {
-    .hero-banner__text {
-        background: rgba(57,50,34, 0.2);
-        box-shadow: 0px 0px 40px 40px rgba(57,50,34, 0.2);
-        border-radius: 1px;
-    }
+  .hero-banner__text {
+    background: rgba(57, 50, 34, 0.2);
+    box-shadow: 0px 0px 40px 40px rgba(57, 50, 34, 0.2);
+    border-radius: 1px;
+  }
 }
 
 @media screen and (min-width: 520px) {
-    body {
-        box-sizing: border-box;
-    }
+  body {
+    box-sizing: border-box;
+  }
 
-    header div {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
+  header div {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 
-    header img {
-        height: 38px;
-        margin: auto 0;
-    }
+  header img {
+    height: 38px;
+    margin: auto 0;
+  }
 
-    header ul {
-        font-size: 1.8rem;
-        box-sizing: border-box;
-    }
-    
-    .nav-button {
-        color: rgba(0,0,0,0.87);
-    }
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-    .sticky + main {
-        padding-top: 60px;
-    }
+  header ul {
+    font-size: 1.8rem;
+    box-sizing: border-box;
+  }
 
-    .hero-headshot {
-        display: block;
-    }
-    
-    .hero-headshot {
-        float: right;
-        margin-left: 0.2rem;
-    }    
+  .nav-button {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + main {
+    padding-top: 60px;
+  }
 
+  .hero-headshot {
+    display: block;
+  }
+
+  .hero-headshot {
+    float: right;
+    margin-left: 0.2rem;
+  }
 }
 
 @media print {
-    header {
-        display: none;
-    }
+  header {
+    display: none;
+  }
 
-    .hero-banner {
-        display: none;
-    }
-    .hero-headshot {
-        height: 6rem;
-    }
+  .hero-banner {
+    display: none;
+  }
+  .hero-headshot {
+    height: 6rem;
+  }
 
-    .project {
-        width: 11rem;
-    }
-    .project img {
-        display: none;
-    }
-    
-    footer {
-        padding: 0;
-    }
+  .project {
+    width: 11rem;
+  }
+  .project img {
+    display: none;
+  }
+
+  footer {
+    padding: 0;
+  }
 }
