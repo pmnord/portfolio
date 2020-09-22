@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap");
 
 body {
-  animation: fadeIn 0.2s ease-in;
+  animation: fadeIn 0.5s ease-in;
   animation-fill-mode: backwards;
   margin: 0 auto;
   font-size: 0;
@@ -110,7 +110,8 @@ section {
   /* offset-x | offset-y | blur-radius | color */
   text-shadow: 0 0 6px hsl(0, 0%, 5%);
 
-  animation: fadeIn 1.5s ease-in;
+  animation: fadeIn 1s ease-in 0.4s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes fadeIn {
