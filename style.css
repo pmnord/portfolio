@@ -108,6 +108,7 @@ section {
   margin: 0rem;
   font-size: 4rem;
   color: hsl(0, 0%, 95%);
+
   /* offset-x | offset-y | blur-radius | color */
   text-shadow: 0 0 6px hsl(0, 0%, 5%);
 
@@ -163,23 +164,32 @@ section {
   padding: 1rem;
 }
 
-#projects {
+.projects {
   /* h2 is 24px or 1.5rem by default */
   /* projects has a top margin of 0.5rem, so this line places the projects h2 center */
-  margin-top: 2rem;
+  padding-top: 19.92px;
 }
 
-.projects {
+.projects h2 {
+  color: hsl(0, 0%, 10%);
+  font-weight: normal;
+  border-bottom: solid 1px hsl(0, 0%, 10%);
+  width: fit-content;
+  margin: 2.5rem auto;
+  padding-bottom: 0.5rem;
+}
+
+.projects__cards {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   padding-bottom: 25px;
   flex-wrap: wrap;
 }
-.project h3 {
-  background-color: hsl(222, 100%, 93%);
-  box-shadow: 0 0 3px rgba(51, 51, 51, 0.9);
-  color: black;
+.project__header {
+  background-color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 98%);
+  letter-spacing: 1px;
   font-weight: bold;
   font-size: 1.7rem;
   padding: 0.5rem;
@@ -187,7 +197,7 @@ section {
 }
 .project {
   background-color: rgb(242, 246, 255);
-  box-shadow: 0 0 3px rgba(51, 51, 51, 0.3);
+  box-shadow: 0 0 7px rgba(51, 51, 51, 0.3);
   width: 30rem;
   margin: 1rem;
   overflow: hidden;

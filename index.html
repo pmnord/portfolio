@@ -169,130 +169,136 @@
         <span class="icon-tag">PostgreSQL</span>
       </section>
 
-      <h2 id="projects">Projects</h2>
-      <section class="projects">
-        <div class="project">
-          <h3>Issue Tracker</h3>
-          <div class="grid-50">
-            <div class="project__img-box">
-              <img
-                src="images/we-do.jpg"
-                alt="Screenshot of we-do issue tracker"
-              />
-            </div>
-
-            <div class="project-about">
-              <p>
-                A Kanban style organization tool implemented with React on the
-                frontend with Node.js and PostgreSQL on the backend. Data
-                persistence and concurrency!
-              </p>
-
-              <div class="project-nav">
-                <a
-                  href="https://wedo.now.sh/"
-                  target="_blank"
-                  rel="noopener noreferer"
-                  ><strong>Demo</strong></a
-                >
-                <a
-                  href="https://github.com/pmnord/todo-management-react-capstone-client"
-                  target="_blank"
-                  rel="noopener noreferer"
-                  ><strong>Github</strong></a
-                >
-              </div>
-              <div class="tags">
-                <span class="tag">RESTful APIs</span>
-                <span class="tag">Mocha</span>
-                <span class="tag">Chai</span>
-                <span class="tag">Supertest</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <h3>Plant Manager</h3>
-          <div class="grid-50">
-            <div class="project__img-box">
-              <img
-                src="images/fancy-plants.jpg"
-                alt="Screenshot of FancyPlants"
-              />
-            </div>
-
-            <div class="project-about">
-              <p>
-                A full stack application using React and Node.js for managing a
-                collection of plants. Users can learn more about their plants
-                with data provided by the Trefle plant API.
-              </p>
-
-              <div class="project-nav">
-                <a
-                  href="https://fancyplants.io/"
-                  target="_blank"
-                  rel="noopener noreferer"
-                  ><strong>Demo</strong></a
-                >
-                <a
-                  href="https://github.com/pmnord/todo-management-react-capstone-client"
-                  target="_blank"
-                  rel="noopener noreferer"
-                  ><strong>Github</strong></a
-                >
-              </div>
-              <div class="tags">
-                <span class="tag">Authentication</span>
-                <span class="tag">JSON Web Tokens</span>
-                <span class="tag">RESTful APIs</span>
-                <span class="tag">Mocha</span>
-                <span class="tag">Chai</span>
-                <span class="tag">Supertest</span>
+      <section class="projects" id="projects">
+        <h2 >Projects</h2>
+        <div class="projects__cards">
+            <div class="project">
+              <h3 class="project__header">Issue Tracker</h3>
+              <div class="grid-50">
+                <div class="project__img-box">
+                  <img
+                    src="images/we-do.jpg"
+                    alt="Screenshot of we-do issue tracker"
+                  />
+                </div>
+    
+                <div class="project-about">
+                  <p>
+                    A Kanban style organization tool implemented with React on the
+                    frontend with Node.js and PostgreSQL on the backend. Data
+                    persistence and concurrency!
+                  </p>
+    
+                  <div class="project-nav">
+                    <a
+                      href="https://wedo.now.sh/"
+                      target="_blank"
+                      rel="noopener noreferer"
+                      ><strong>Demo</strong></a
+                    >
+                    <a
+                      href="https://github.com/pmnord/todo-management-react-capstone-client"
+                      target="_blank"
+                      rel="noopener noreferer"
+                      ><strong>Github</strong></a
+                    >
+                  </div>
+                  <div class="tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">RESTful API</span>
+                    <span class="tag">Mocha</span>
+                    <span class="tag">Chai</span>
+                    <span class="tag">Supertest</span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <h3>OpenDota User Search</h3>
-          <div class="grid-50">
+    
+            <div class="project">
+              <h3 class="project__header">Plant Manager</h3>
+              <div class="grid-50">
+                <div class="project__img-box">
+                  <img
+                    src="images/fancy-plants.jpg"
+                    alt="Screenshot of FancyPlants"
+                  />
+                </div>
+    
+                <div class="project-about">
+                  <p>
+                    A full stack application using React and Node.js for managing a
+                    collection of plants. Users can learn more about their plants
+                    with data provided by the Trefle plant API.
+                  </p>
+    
+                  <div class="project-nav">
+                    <a
+                      href="https://fancyplants.io/"
+                      target="_blank"
+                      rel="noopener noreferer"
+                      ><strong>Demo</strong></a
+                    >
+                    <a
+                      href="https://github.com/pmnord/todo-management-react-capstone-client"
+                      target="_blank"
+                      rel="noopener noreferer"
+                      ><strong>Github</strong></a
+                    >
+                  </div>
+                  <div class="tags">
+                    <span class="tag">Authentication</span>
+                    <span class="tag">JSON Web Tokens</span>
+                    <span class="tag">RESTful APIs</span>
+                    <span class="tag">Mocha</span>
+                    <span class="tag">Chai</span>
+                    <span class="tag">Supertest</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="project">
+                <h3 class="project__header">OpenDota User Search</h3>
+                <div class="grid-50">
             <div>
-              <img
+                <img
                 src="images/dota-app-ss-2.jpg"
                 alt="Screenshot of Dota2 Player Search"
-              />
+                />
             </div>
-
+            
             <div class="project-about">
-              <p>
-                A user search feature implemented with jQuery. The app makes
-                AJAX calls to the Open Dota API and renders meaningful data on
-                player performance and preferences.
-              </p>
-
-              <div class="project-nav">
-                <a
-                  href="https://pmnord.github.io/dota-user-search/"
-                  target="_blank"
-                  rel="noopener noreferer"
-                  ><strong>Demo</strong></a
-                >
-                <a
-                  href="https://github.com/pmnord/dota-user-search"
-                  target="_blank"
-                  rel="noopener noreferer"
-                  ><strong>Github</strong></a
-                >
-              </div>
-              <div class="tags">
-                <span class="tag">RESTful APIs</span>
-                <span class="tag">Tabular Data</span>
-                <span class="tag">Searching & Sorting</span>
-              </div>
+                <p>
+                    A user search feature implemented with jQuery. The app makes
+                    AJAX calls to the Open Dota API and renders meaningful data on
+                    player performance and preferences.
+                </p>
+                
+                <div class="project-nav">
+                    <a
+                    href="https://pmnord.github.io/dota-user-search/"
+                    target="_blank"
+                    rel="noopener noreferer"
+                    ><strong>Demo</strong></a
+                    >
+                    <a
+                    href="https://github.com/pmnord/dota-user-search"
+                    target="_blank"
+                    rel="noopener noreferer"
+                    ><strong>Github</strong></a
+                    >
+                </div>
+                <div class="tags">
+                    <span class="tag">RESTful APIs</span>
+                    <span class="tag">Tabular Data</span>
+                    <span class="tag">Searching & Sorting</span>
+                </div>
             </div>
-          </div>
+        </div>
+    </div>
         </div>
       </section>
     </main>
