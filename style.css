@@ -327,11 +327,6 @@ footer a {
     margin: 0 auto;
   }
 
-  header img {
-    height: 38px;
-    margin: auto 0;
-  }
-
   header ul {
     font-size: 1.5rem;
     box-sizing: border-box;
@@ -361,6 +356,9 @@ footer a {
     transform: scaleX(.9);
   }
 
+  .hero-banner {
+    height: 50vh;
+  }
 
   .hero-headshot {
     display: block;
