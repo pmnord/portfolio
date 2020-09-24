@@ -65,7 +65,7 @@ nav ul {
   font-size: 1.5rem;
 }
 
-.nav-button {
+.nav__link {
   letter-spacing: 3px;
 }
 
@@ -337,14 +337,30 @@ footer a {
     box-sizing: border-box;
   }
 
-  .nav-button {
+  .nav__link {
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
+    position: relative;
   }
 
-  .nav-button:hover {
-    text-decoration: underline;
+  .nav__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    min-height: 1px;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
   }
+
+  .nav__link:hover::after {
+    transform: scaleX(.9);
+  }
+
 
   .hero-headshot {
     display: block;
