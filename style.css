@@ -151,7 +151,7 @@ section {
   margin: 1.5rem 0;
 }
 
-.badges img {
+.badges__badge {
   height: 3.3rem;
   padding: 1rem;
 }
