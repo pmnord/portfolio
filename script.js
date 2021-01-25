@@ -1,5 +1,5 @@
 const root = document.documentElement;
-const darkmodeTrack = document.querySelector('.darkmode__track');
+const darkmodeTrack = document.querySelector('.darkmode__icon');
 
 const darkmodeValues = {
   text: '#ffffffde',

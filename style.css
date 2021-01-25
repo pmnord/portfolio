@@ -42,6 +42,7 @@ nav {
 }
 
 h2 {
+  font-family: 'Recurisve', sans-serif;
   font-weight: normal;
   font-size: 1rem;
   margin: 1rem auto;
@@ -85,11 +86,11 @@ nav ul {
 .darkmode__track {
 }
 .darkmode__slider {
-  width: 2rem;
-  margin-left: auto;
 }
 .darkmode__icon {
-  width: 24px;
+  margin-top: 4px;
+  margin-left: 5px;
+  width: 26px;
   height: 24px;
   color: var(--text);
   cursor: pointer;
