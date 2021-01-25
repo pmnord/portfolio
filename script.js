@@ -34,3 +34,17 @@ const savedDarkmode = window.localStorage.getItem('nordman.dev--darkmode');
 if (savedDarkmode === 'true') {
   toggleDarkmode();
 }
+
+// console.log(`You wake up in the middle of the woods. Which way do you go?
+// north() ?
+// south() ?
+// east()  ?
+// west()  ?
+// `);
+
+// const north = () => {
+//   console.log('You ran right into a bear and became bear supper. Game Over!');
+// };
+// const south = () => console.log('You hit the edge of the world');
+// const east = () => console.log('You hit the edge of the world');
+// const west = () => console.log('You hit the edge of the world');
