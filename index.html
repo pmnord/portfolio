@@ -80,6 +80,26 @@
                 </a>
               </li>
             </ul>
+            <div class="darkmode">
+              <div class="darkmode__track">
+                <div class="darkmode__slider">
+                  <svg
+                    class="darkmode__icon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
           </nav>
         </div>
       </header>
@@ -90,87 +110,80 @@
           <h2 class="hidden">About Peter Nordman</h2>
           <img
             class="hero-headshot"
-            src="assets/headshot-bright-shorter.jpg"
+            src="assets/square1.jpg"
             alt="Picture of Peter Nordman"
           />
           <p>
             👋 Hello! I'm a <strong>JavaScript Developer</strong> working mostly
-            with React and Node.js
+            with <strong>React</strong> and <strong>Node.js</strong>
           </p>
           <p>
             I love to build applications with an easy user experience and clean
-            UI. If I had to pick three attributes for my ideal development team,
-            they would be: communication, creativity, and honesty.
+            UI. If I had to pick three attributes for my ideal team they would
+            be: communication, openness, and honesty.
           </p>
           <p>Feel free to reach out — I'm always open to new opportunities!</p>
         </section>
 
-        <section class="badges">
-          <h2 class="hidden">Tech</h2>
-
-          <div>
+        <section>
+          <h2>My favorite tools</h2>
+          <section class="badges">
+            <div>
+              <img
+                class="badges__badge"
+                src="assets/javascript-badge.svg"
+                alt="javascript logo"
+              />
+              <span class="icon-tag">JavaScript</span>
+            </div>
+            <div>
+              <img
+                class="badges__badge"
+                src="assets/react-badge.svg"
+                alt="react logo"
+              />
+              <span class="icon-tag">React</span>
+            </div>
+            <div>
+              <img
+                class="badges__badge"
+                src="assets/redux-badge.svg"
+                alt="redux logo"
+              />
+              <span class="icon-tag">Redux</span>
+            </div>
+            <div>
+              <img
+                class="badges__badge"
+                src="assets/nodejs-badge.svg"
+                alt="node logo"
+              />
+              <span class="icon-tag">Node.js</span>
+            </div>
+            <div>
+              <img
+                class="badges__badge"
+                src="assets/html5-badge.svg"
+                alt="html5 logo"
+              />
+              <span class="icon-tag">HTML</span>
+            </div>
+            <div>
+              <img
+                class="badges__badge"
+                src="assets/css3-badge.svg"
+                alt="css logo"
+              />
+              <span class="icon-tag">CSS</span>
+            </div>
             <img
               class="badges__badge"
-              src="assets/javascript-badge.svg"
-              alt="javascript logo"
-              title="JavaScript"
+              src="assets/PostgreSQL_logo.3colors.svg"
+              alt="PostgreSQL"
             />
-            <span class="icon-tag">JavaScript</span>
-          </div>
-          <div>
-            <img
-              class="badges__badge"
-              src="assets/react-badge.svg"
-              alt="react logo"
-              title="React"
-            />
-            <span class="icon-tag">React</span>
-          </div>
-          <div>
-            <img
-              class="badges__badge"
-              src="assets/redux-badge.svg"
-              alt="redux logo"
-              title="Redux"
-            />
-            <span class="icon-tag">Redux</span>
-          </div>
-          <div>
-            <img
-              class="badges__badge"
-              src="assets/nodejs-badge.svg"
-              alt="node logo"
-              title="Node.js"
-            />
-            <span class="icon-tag">Node.js</span>
-          </div>
-          <div>
-            <img
-              class="badges__badge"
-              src="assets/html5-badge.svg"
-              alt="html5 logo"
-              title="HTML"
-            />
-            <span class="icon-tag">HTML</span>
-          </div>
-          <div>
-            <img
-              class="badges__badge"
-              src="assets/css3-badge.svg"
-              alt="css logo"
-              title="CSS"
-            />
-            <span class="icon-tag">CSS</span>
-          </div>
-          <img
-            class="badges__badge"
-            src="assets/PostgreSQL_logo.3colors.svg"
-            alt="PostgreSQL"
-            title="PostgreSQL"
-          />
-          <span class="icon-tag">PostgreSQL</span>
+            <span class="icon-tag">PostgreSQL</span>
+          </section>
         </section>
-
         <section class="projects" id="projects">
           <h2>A few (old) samples from my bootcamp</h2>
           <div class="projects__cards">
@@ -224,7 +237,7 @@
             </div>
 
             <div class="project">
-              <h3 class="project__header">Plant Manager</h3>
+              <h3 class="project__header">Plant Researcher</h3>
               <div>
                 <div class="project__img-box">
                   <img
@@ -235,15 +248,14 @@
 
                 <div class="project-about">
                   <p>
-                    A full stack application using React and Node.js for
-                    managing a collection of plants. Users can learn more about
-                    their plants with data provided by the Trefle plant API.
+                    A full stack React app supporting user accounts with JWT
+                    authorization. Exposes data from the Trefle.io plant API.
                   </p>
 
                   <div class="project-nav">
                     <a
                       class="project__button"
-                      href="https://fancyplants.io/"
+                      href="https://fancy-plants.pmnord.now.sh/"
                       target="_blank"
                       rel="noopener noreferer"
                       ><strong>Demo</strong></a
