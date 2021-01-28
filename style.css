@@ -43,7 +43,6 @@ nav {
 
 h2 {
   font-family: 'Recurisve', sans-serif;
-  font-weight: normal;
   font-size: 1rem;
   margin: 1rem auto;
   text-align: center;
@@ -316,7 +315,7 @@ footer a {
   }
 
   .hero {
-    margin: 5rem 0;
+    margin: 8rem 4rem;
   }
 
   .hero-headshot {
