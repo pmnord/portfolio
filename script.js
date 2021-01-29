@@ -35,20 +35,6 @@ if (savedDarkmode === 'true') {
   toggleDarkmode();
 }
 
-// console.log(`You wake up in the middle of the woods. Which way do you go?
-// north() ?
-// south() ?
-// east()  ?
-// west()  ?
-// `);
-
-// const north = () => {
-//   console.log('You ran right into a bear and became bear supper. Game Over!');
-// };
-// const south = () => console.log('You hit the edge of the world');
-// const east = () => console.log('You hit the edge of the world');
-// const west = () => console.log('You hit the edge of the world');
-
 /*
 You can customize the node’s console.log() output in two different ways. One option is, using the native code, which can be a bit less readable; another is simply using an npm package which can reduce your pain a bit.
 
