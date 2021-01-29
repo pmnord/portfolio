@@ -35,8 +35,6 @@ if (savedDarkmode === 'true') {
   toggleDarkmode();
 }
 
-toggleDarkmode();
-
 /*
 You can customize the node’s console.log() output in two different ways. One option is, using the native code, which can be a bit less readable; another is simply using an npm package which can reduce your pain a bit.
 
