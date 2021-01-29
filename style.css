@@ -11,11 +11,11 @@
 :root {
   --black: hsla(0, 0%, 0%, 0.871);
   --white: hsl(0, 0%, 99%);
-  --background: #fafbff;
-  --text: #000000de;
-  --card-background: hsl(0, 0%, 99%);
-  --card-shadow: hsla(0, 0%, 20%, 0.3);
-  --tag-background: hsl(222, 100%, 96%);
+  --background: 'hsl(0, 0%, 9%)';
+  --text: #ffffffde;
+  --card-background: hsl(0, 0%, 50%, 0.1);
+  --card-shadow: hsla(0, 0%, 80%, 0.3);
+  --tag-background: hsl(0, 0%, 9%);
 }
 
 /* Utility Classes */
@@ -25,11 +25,13 @@
 /* End Utility Classes */
 
 body {
-  animation: fadeIn 0.5s ease-in;
-  animation-fill-mode: backwards;
+  /* animation: fadeIn 1s ease-in; */
+  /* animation-fill-mode: backwards; */
   font-family: 'Recursive', sans-serif;
   color: var(--text);
-  background-color: var(--background);
+  /* background-color: var(--background); */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(./assets/starry-background.webp);
 }
 h1,
 h2,

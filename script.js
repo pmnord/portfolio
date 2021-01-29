@@ -4,7 +4,7 @@ const darkmodeTrack = document.querySelector('.darkmode__icon');
 const darkmodeValues = {
   text: '#ffffffde',
   background: 'hsl(0, 0%, 9%)',
-  'card-background': 'hsl(0, 0%, 12%)',
+  'card-background': 'hsl(0, 0%, 50%, .1)',
   'card-shadow': 'hsla(0, 0%, 80%, 0.3)',
   'tag-background': 'hsl(0, 0%, 9%)',
 };
@@ -34,6 +34,8 @@ const savedDarkmode = window.localStorage.getItem('nordman.dev--darkmode');
 if (savedDarkmode === 'true') {
   toggleDarkmode();
 }
+
+toggleDarkmode();
 
 /*
 You can customize the node’s console.log() output in two different ways. One option is, using the native code, which can be a bit less readable; another is simply using an npm package which can reduce your pain a bit.
