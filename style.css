@@ -18,6 +18,10 @@
   --tag-background: hsl(0, 0%, 9%);
 }
 
+::selection {
+  background: #639;
+}
+
 /* Utility Classes */
 .hidden {
   display: none;
