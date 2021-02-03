@@ -375,26 +375,8 @@ footer a {
   }
 }
 
-@media print {
-  header {
-    display: none;
-  }
-
-  .hero-banner {
-    display: none;
-  }
-  .hero-headshot {
-    height: 6rem;
-  }
-
-  .project {
-    width: 11rem;
-  }
-  .project img {
-    display: none;
-  }
-
-  footer {
-    padding: 0;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
   }
 }
