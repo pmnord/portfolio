@@ -14,7 +14,7 @@
   --background: 'hsl(0, 0%, 9%)';
   --text: #ffffffde;
   --card-background: hsl(0, 0%, 50%, 0.1);
-  --card-shadow: hsla(0, 0%, 80%, 0.3);
+  --card-shadow: hsla(0, 0%, 0%, 0.5);
   --tag-background: hsl(0, 0%, 9%);
 }
 
@@ -213,7 +213,7 @@ section {
 .project {
   background-color: var(--card-background);
   color: var(--text);
-  box-shadow: 0 0 4px var(--card-shadow);
+  box-shadow: 1px 2px 3px var(--card-shadow);
   width: 25rem;
   margin: 1rem;
   padding: 1rem;
