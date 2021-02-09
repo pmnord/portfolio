@@ -29,13 +29,12 @@
 /* End Utility Classes */
 
 body {
-  /* animation: fadeIn 1s ease-in; */
+  animation: fadeIn 1s ease-in;
   /* animation-fill-mode: backwards; */
   font-family: 'Recursive', sans-serif;
   color: var(--text);
-  /* background-color: var(--background); */
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(./assets/starry-background.webp);
+    url('assets/starry-background.webp');
 }
 h1,
 h2,
