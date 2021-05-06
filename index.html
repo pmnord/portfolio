@@ -136,22 +136,26 @@
             src="assets/square1.jpg"
             alt="Picture of Peter Nordman"
           />
-          <p>
-            👋 Hello! I'm a <strong>JavaScript Developer</strong> working mostly
-            with <strong>React</strong> and <strong>Node.js</strong>
-          </p>
-          <p>
-            I love to build applications with an easy user experience and clean
-            UI. If I had to pick three attributes for my ideal team they would
-            be: communication, openness, and honesty.
-          </p>
-          <p>Feel free to reach out — I'm always open to new opportunities!</p>
+          <div>
+            <p>
+              👋 Hello! I'm a <strong>JavaScript Developer</strong> working
+              mostly with <strong>React</strong> and <strong>Node.js</strong>
+            </p>
+            <p>
+              I love to build applications with an easy user experience and
+              clean UI. If I had to pick three attributes for my ideal team they
+              would be: communication, openness, and honesty.
+            </p>
+            <p>
+              Feel free to reach out — I'm always open to new opportunities!
+            </p>
+          </div>
         </section>
 
         <section class="tools">
-          <h2>My favorite tools</h2>
+          <h2 class="hidden">My favorite tools</h2>
           <section class="badges">
-            <div class="grow-text">
+            <div class="badge-container">
               <img
                 class="badges__badge"
                 src="assets/javascript-badge.svg"
@@ -159,15 +163,23 @@
               />
               <p>JavaScript</p>
             </div>
-            <div class="grow-text">
+            <div class="badge-container">
+              <img
+                class="badges__badge"
+                src="assets/ts-badge.svg"
+                alt="TypeScript"
+              />
+              <p>TypeScript</p>
+            </div>
+            <div class="badge-container">
               <img
                 class="badges__badge"
                 src="assets/react-badge-cropped.svg"
-                alt="react logo"
+                alt="React"
               />
               <p>React</p>
             </div>
-            <div class="grow-text">
+            <div class="badge-container">
               <img
                 class="badges__badge"
                 src="assets/redux-badge-cropped.svg"
@@ -175,7 +187,7 @@
               />
               <p>Redux</p>
             </div>
-            <div class="grow-text">
+            <div class="badge-container">
               <img
                 class="badges__badge"
                 src="assets/nodejs-badge.svg"
@@ -183,7 +195,7 @@
               />
               <p>Node.js</p>
             </div>
-            <div class="grow-text">
+            <div class="badge-container">
               <svg
                 class="badges__badge"
                 xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +221,7 @@
               </svg>
               <p>HTML</p>
             </div>
-            <div class="grow-text">
+            <div class="badge-container">
               <svg class="badges__badge" viewBox="0 0 362.73 512">
                 <g
                   inkscape:label="Calque 1"
@@ -271,13 +283,21 @@
               </svg>
               <p>CSS</p>
             </div>
-            <div class="grow-text" style="padding-left: 3px">
+            <div class="badge-container" style="padding-left: 3px">
               <img
                 class="badges__badge"
                 src="assets/postgresql-badge-cropped.svg"
                 alt="PostgreSQL"
               />
               <p>PostgreSQL</p>
+            </div>
+            <div class="badge-container" style="padding-left: 3px">
+              <img
+                class="badges__badge"
+                src="assets/docker-badge.svg"
+                alt="Docker"
+              />
+              <p>Docker</p>
             </div>
           </section>
         </section>
@@ -286,37 +306,43 @@
           <div class="projects__cards">
             <div class="project">
               <div>
-                <h3 class="project__header">Issue Tracker</h3>
-                <div class="project__img-box">
-                  <img
-                    src="assets/collab-preview.jpg"
-                    alt="Screenshot of we-do issue tracker"
-                  />
-                </div>
-
-                <div class="project-about">
-                  <p>
-                    A Kanban style issue tracker implemented with React on the
-                    frontend and with Node.js and PostgreSQL on the backend.
-                    Supports concurrent users with a drag-and-drop interface.
-                  </p>
-
-                  <div class="project-nav">
-                    <a
-                      class="project__button"
-                      href="https://wedo.now.sh/"
-                      target="_blank"
-                      rel="noopener noreferer"
-                      ><strong>Demo</strong></a
-                    >
-                    <a
-                      class="project__button"
-                      href="https://github.com/pmnord/todo-management-react-capstone-client"
-                      target="_blank"
-                      rel="noopener noreferer"
-                      ><strong>GitHub</strong></a
-                    >
+                <h3 class="project__header">Concurrent Kanban Board</h3>
+                <div class="project__content">
+                  <div class="project__img-box">
+                    <img
+                      src="assets/collab-preview.jpg"
+                      alt="Screenshot of we-do issue tracker"
+                    />
                   </div>
+                  <div>
+                    <p>
+                      A Kanban style issue tracker implemented with React on the
+                      frontend and with Node.js and PostgreSQL on the backend.
+                      Supports concurrent users with a drag-and-drop interface.
+                    </p>
+
+                    <p><strong>What I learned: </strong></p>
+                    <p><strong>What I used: </strong></p>
+
+                    <div class="project-nav">
+                      <a
+                        class="project__button"
+                        href="https://wedo.now.sh/"
+                        target="_blank"
+                        rel="noopener noreferer"
+                        ><strong>Demo</strong></a
+                      >
+                      <a
+                        class="project__button"
+                        href="https://github.com/pmnord/todo-management-react-capstone-client"
+                        target="_blank"
+                        rel="noopener noreferer"
+                        ><strong>GitHub</strong></a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="project__footer">
                   <div class="tags">
                     <span class="tag">React</span>
                     <span class="tag">Node.js</span>
@@ -334,7 +360,7 @@
             </div>
 
             <div class="project">
-              <h3 class="project__header">Plant Researcher</h3>
+              <h3 class="project__header">Plant Research Tool</h3>
               <div>
                 <div class="project__img-box">
                   <img
@@ -383,7 +409,7 @@
             </div>
 
             <div class="project">
-              <h3 class="project__header">OpenDota User Search</h3>
+              <h3 class="project__header">User Data Lookup</h3>
               <div>
                 <div>
                   <img
@@ -428,7 +454,7 @@
             </div>
 
             <div class="project">
-              <h3 class="project__header">Vanilla JS Quiz App</h3>
+              <h3 class="project__header">Simple Quiz App</h3>
               <div>
                 <div>
                   <img
