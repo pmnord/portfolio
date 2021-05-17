@@ -215,15 +215,18 @@ header div {
   font-weight: 700;
   font-size: 1.9rem;
   margin-top: 0;
+  text-align: center;
 }
 
 .project__content {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: no-wrap;
 }
 
 .project__content p:first-child {
-  padding-top: 0;
+  margin-top: 1rem;
 }
 
 .project {
@@ -336,9 +339,20 @@ footer a {
   border-radius: 5px;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: all 0.05s linear;
+}
+.tag:hover {
+  cursor: default;
+  color: var(--tag-background);
+  background-color: var(--white);
 }
 
-@media screen and (min-width: 520px) {
+/* Desktop */
+@media screen and (min-width: 768px) {
+  nav {
+    margin-top: 4rem;
+  }
+
   .nav__link {
     text-decoration: none;
     position: relative;
@@ -369,11 +383,32 @@ footer a {
     align-items: flex-start;
   }
 
+  .hero__blurb p:first-child {
+    padding-top: 0;
+  }
+
   .hero-headshot {
     display: block;
   }
+
+  .project__header {
+    text-align: left;
+  }
+
+  .project__content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: no-wrap;
+  }
+
+  .project__content p:first-child {
+    padding-top: 0;
+    margin-top: 0;
+  }
 }
 
+/* mobile only (is this necessary)? */
 @media screen and (max-width: 519px) {
   .root-container {
     padding: 0;
