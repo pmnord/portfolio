@@ -162,6 +162,8 @@ header div {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
 }
 
 .badge-container {
@@ -211,7 +213,11 @@ header div {
 
 .project__content {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
+}
+
+.project__content p:first-child {
+  padding-top: 0;
 }
 
 .project {
@@ -227,14 +233,13 @@ header div {
 
 .project img {
   height: 220px;
-  width: 220px;
+  width: 260px;
   object-fit: cover;
 }
 
 .project__img-box {
   box-sizing: border-box;
-  overflow: hidden;
-  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .project p {
@@ -255,8 +260,8 @@ header div {
   padding: 5px;
   box-sizing: border-box;
   width: 100%;
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 1.2rem;
 }
@@ -268,8 +273,8 @@ header div {
   background-color: var(--black);
   color: white;
   width: fit-content;
-  padding: 0.8rem 1.8rem;
-  margin: 0 auto;
+  padding: 0.8rem 2.5rem;
+  margin: 0 0.5rem;
   box-shadow: 0 0 7px rgba(51, 51, 51, 0.3);
   transition: all 0.2s;
   backface-visibility: hidden;
