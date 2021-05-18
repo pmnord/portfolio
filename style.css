@@ -139,6 +139,13 @@ header div {
   box-sizing: border-box;
 }
 
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6rem auto;
+}
+
 .hero {
   margin: 2rem auto;
 }
