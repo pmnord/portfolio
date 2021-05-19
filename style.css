@@ -96,12 +96,15 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
 .nav__link {
   font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   letter-spacing: 3px;
   margin-right: 1.2rem;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .darkmode__icon {
@@ -143,7 +146,7 @@ header div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 6rem auto;
+  margin: 0 auto;
 }
 
 .hero {
@@ -352,6 +355,19 @@ footer a {
   cursor: default;
   color: var(--tag-background);
   background-color: var(--white);
+}
+
+@media screen and (max-width: 766px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .hero__blurb {
+    margin-top: 2rem;
+  }
 }
 
 /* Desktop */
