@@ -132,25 +132,37 @@
         <section class="landing">
           <section class="hero" id="about">
             <h2 class="hidden">About Peter Nordman</h2>
-            <img
-              class="hero-headshot"
-              src="assets/square1.jpg"
-              alt="Picture of Peter Nordman"
-            />
+            <picture>
+              <!-- The browser will use the first compatible source -->
+              <source type="image/avif" srcset="assets/petern.avif" />
+              <source type="image/webpg" srcset="assets/petern.webpg" />
+              <img
+                class="hero-headshot"
+                src="assets/petern.jpg"
+                alt="Picture of Peter Nordman"
+              />
+            </picture>
             <div class="hero__blurb">
               <p>
-                Hello! I'm a <em>Frontend Developer</em> working with
-                <em>React</em>.
+                <strong>
+                  Hello! I'm a <u>Frontend Developer</u> working with
+                  <u>React</u>.
+                </strong>
               </p>
               <p>
-                Michael was having brunch with Sally Sitwell at a restaurant
-                called Skip Church's Bistro. In addition to brunch, the
-                restaurant was known for an item on the menu called the "Skip's
-                Scramble", an omelet that contained everything on the menu. Do
-                not order the Skip's Scramble. There's a new daddy in town. A
-                discipline daddy. Everybody dance… NOW. No, she's in it. She's a
-                contestant. It's sorta like an inner beauty pageant. Ah, there
-                it is. Fried cheese… with club sauce.
+                <em>
+                  <sup>
+                    Michael was having brunch with Sally Sitwell at a restaurant
+                    called Skip Church's Bistro. In addition to brunch, the
+                    restaurant was known for an item on the menu called the
+                    "Skip's Scramble", an omelet that contained everything on
+                    the menu. Do not order the Skip's Scramble. There's a new
+                    daddy in town. A discipline daddy. Everybody dance… NOW. No,
+                    she's in it. She's a contestant. It's sorta like an inner
+                    beauty pageant. Ah, there it is. Fried cheese… with club
+                    sauce.
+                  </sup>
+                </em>
               </p>
             </div>
           </section>
