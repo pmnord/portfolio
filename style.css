@@ -33,8 +33,10 @@ body {
   /* animation-fill-mode: backwards; */
   font-family: 'Recursive', sans-serif;
   color: var(--text);
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url('assets/starry-background.webp');
+  background-color: #070b13;
+  background-image: url('assets/starry-background-90dark.webp');
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url('assets/starry-background.webp'); */
 }
 h1,
 h2,
